@@ -9,6 +9,10 @@ requirements = []
 path = 'contracts/Genealogix.clar'
 clarity_version = 3
 epoch = 3.1
+[contracts.MedicalHistory]
+path = 'contracts/MedicalHistory.clar'
+clarity_version = 3
+epoch = 3.1
 [repl.analysis]
 passes = ['check_checker']
 
